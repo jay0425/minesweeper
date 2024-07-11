@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  padding: 50px 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.row button {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  border-radius: 0;
+}
+
+.row button:hover {
+  background-color: #a6a3a3;
+}
